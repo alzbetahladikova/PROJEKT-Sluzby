@@ -1,0 +1,100 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+@media  screen and (max-width: 640px) {
+ 
+    
+ .kontejner alfa{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+ }   
+.traveler{
+width: 350px;
+height: 290px; 
+background: transparent url ('sources\images\happy-traveler.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+h1 {
+    font-size: 28px;
+        color: #000000;  
+ }
+
+ h2 {
+    font-size: 16px;
+        color: #000000;
+}
+
+p{
+    font-size: 16px;
+        color: #8B8B8B;   
+}
+.beta{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button {
+color: #FFFFFF;
+font-size: 14px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px; 
+
+margin-bottom: 10px;
+background-color: #407BFF;
+width: 195px;
+}
+
+
+
+.plaz {
+    background-color: #8B8B8B;
+    width: 220px;
+}
+
+.beta {
+    display: flex;  
+    align-items: center;
+}
+.obdelnik{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 4px 6px #407BFF1F;
+border-radius: 10px;
+opacity: 1;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 15px;
+display: flex;
+padding: 20px;
+justify-content: start;
+
+}
+.obdelnik p {
+    padding-left: 20px;
+    font-size: 13px;
+text-align: left;}
+}
+
+
+
+
+@media  screen and (min-width: 640px) {
+    
+}
+
+@media  screen and (min-width: 1100px) {
+    
+}
+
